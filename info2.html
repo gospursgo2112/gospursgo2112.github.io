@@ -37,7 +37,7 @@
 					}
 		p			{
 		
-						font-size:15px;
+						font-size:17px;
 						color:#666666
 					}
 		.linkPicture {
@@ -79,15 +79,15 @@
 		function start()
 		{
 			document.getElementById( "img1" ).addEventListener(
-				"click", function() { display( "malihu/1.jpg" ); }, false );
+				"mouseover", function() { display( "malihu/1.jpg" ); }, false );
 			document.getElementById( "img2" ).addEventListener(
-				"click", function() { display( "malihu/2.jpg" ); }, false );
+				"mouseover", function() { display( "malihu/2.jpg" ); }, false );
 			document.getElementById( "img3" ).addEventListener(
-				"click", function() { display( "malihu/3.jpg" ); }, false );
+				"mouseover", function() { display( "malihu/3.jpg" ); }, false );
 			document.getElementById( "img4" ).addEventListener(
-				"click", function() { display( "malihu/4.jpg" ); }, false );
+				"mouseover", function() { display( "malihu/4.jpg" ); }, false );
 			document.getElementById( "img5" ).addEventListener(
-				"click", function() { display( "malihu/5.jpg" ); }, false );
+				"mouseover", function() { display( "malihu/5.jpg" ); }, false );
 		} // end function start
 
 	window.addEventListener( "load", start, false );
@@ -97,23 +97,23 @@
 				$('#cimg').hide();  //隱藏要呼叫的div
 
 			// toggles the slickbox on clicking the noted link 
-				$('#img1').click(function() {       //指定呼叫按鈕
+				$('#img1').hover(function() {       //指定呼叫按鈕
 				$('#cimg').slideToggle(400);   //顯示隱藏的div
 			return false;
 			});
-				$('#img2').click(function() {       //指定呼叫按鈕
+				$('#img2').hover(function() {       //指定呼叫按鈕
 				$('#cimg').slideToggle(400);   //顯示隱藏的div
 			return false;
 			});
-				$('#img3').click(function() {       //指定呼叫按鈕
+				$('#img3').hover(function() {       //指定呼叫按鈕
 				$('#cimg').slideToggle(400);   //顯示隱藏的div
 			return false;
 			});
-				$('#img4').click(function() {       //指定呼叫按鈕
+				$('#img4').hover(function() {       //指定呼叫按鈕
 				$('#cimg').slideToggle(400);   //顯示隱藏的div
 			return false;
 			});
-				$('#img5').click(function() {       //指定呼叫按鈕
+				$('#img5').hover(function() {       //指定呼叫按鈕
 				$('#cimg').slideToggle(400);   //顯示隱藏的div
 			return false;
 			});
